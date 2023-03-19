@@ -245,11 +245,11 @@ body {
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: #e3e3e3;
-	background-image: url(assets/crown.png);
+	width: 20px;
+	height: 20px;
+	/* border-radius: 50%; */
+	background-color: transparent;
+	background-image: url(assets/crown.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -277,12 +277,13 @@ body {
 .z-team-border {
 	border-color: var(--z-team);
 }
-.d-rank-border {
-	border: 5px solid var(--d-rank);
+.bej-team-border {
+	border-color: var(--bej-team);
 }
-.f-rank-border {
-	border: 5px solid var(--f-rank);
+.ckg-team-border {
+	border-color: var(--ckg-team);
 }
+
 .no-team-border {
 	border: none;
 }
