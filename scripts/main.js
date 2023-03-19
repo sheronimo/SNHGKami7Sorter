@@ -347,7 +347,7 @@ function removeRankedTrainee(trainee) {
 	return false;
 }
 
-const currentURL = 'https://produce48.github.io/';
+const currentURL = 'https://sheronimo.github.io/';
 // Serializes the ranking into a string and appends that to the current URL
 function generateShareLink() {
 	let shareCode = ranking
